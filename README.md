@@ -27,7 +27,7 @@ re,matplotlib,PIL,os,math等<br>
 ----------------------------
 ### 首先运行getinfo.py<br>
 ### 1.性别是存放在一个字典里面的，key是”Sex“，男性值为1，女性为2，其他是不明性别的为0。可以写个循环获取想要的性别数据，得到自己微信好友的性别比例。<br>
->![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171017.png)<br><br>
+>![AAA]]]]]]]]]]]]](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171017.png)<br><br>
 ### 2.定义一个函数把好友昵称、省份、城市、个人简介等等的数据都爬下来，存到数据框里，再进行分析好友城市分布。<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171200.png)<br><br>
 ### 3.把原先爬下来的个性签名打印出来，发现有很多本来是表情的，变成了emoji、span、class等等这些无关紧要的词，需要先替换掉，另外，还有类似<>/= 之类的符号，也需要写个简单的正则替换掉，再把所有拼起来，得到text字串。<br>
